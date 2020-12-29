@@ -1,0 +1,9 @@
+[package]
+name = "wasm-runner"
+version = "0.1.0"
+authors = ["boxdot <d@zerovolt.org>"]
+edition = "2018"
+
+[dependencies]
+wasmtime = "0.21.0"
+structopt = "0.3.21"
